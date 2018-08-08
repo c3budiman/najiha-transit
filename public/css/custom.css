@@ -1,0 +1,114 @@
+
+iframe[seamless] {
+    border: none;
+}
+
+#wrapper { position: relative; }
+#over_map { position: absolute; top: 115px; left: 25px; z-index: 99; }
+
+.hidden {
+     display:none;
+}
+
+.map{
+    visibility: visible; 
+    width:100%;
+    height:800px;
+}
+
+.cardmoda{
+    padding:15px; 
+    padding-bottom:20px; 
+    margin-bottom:20px;
+}
+
+.bg-komentar{
+    background-color:#33999f12;
+    border-radius: 20px;
+}
+
+.cardkomentar{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 25px;
+    margin-bottom: 10px;
+}
+
+.bg-counter{
+    padding-top: 0px; 
+    padding-bottom: 0px; 
+    background-color: #0a9378;
+}
+
+.icon{
+    margin-bottom: 15px;
+}
+
+.angka{
+    color: #EFFCF8;
+}
+
+.bg-judulberita{
+    background-color: #61d2b47d;
+    padding-top:10px; 
+    padding-bottom: 5px; 
+    font-size: 1.5em;
+}
+
+.bg-judulberitacard{
+    background-color: #0a9378;
+    padding-top:10px; 
+    padding-bottom: 5px; 
+    font-size: 1.5em;
+}
+
+.bg-berita{
+   padding-top: 0px; 
+}
+
+.berita{
+    text-align: center; 
+    padding-top:5px; 
+    padding-bottom: 10px; 
+    font-size: 1.5em;
+}
+
+.wb-berita{
+    word-wrap:break-word; 
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.navbarmoda {
+  background: #0a9378;
+}
+
+.bg-badge {
+    background-color: #FF8066;
+}
+
+.bg-badge:hover{
+    color: #43B6AC;
+    background-color: #33999f05;
+}
+
+.bg-badge:active{
+    color: #F9F871;
+    background-color: #33999f05;
+}
+
+.textmoda{
+    color: #61D2B4;
+}
+
+.fullscreen{
+    height: 100%;
+    width: 100%;
+}
+
+.carousel-item.active,
+.carousel-item-next,
+.carousel-item-prev{
+    display:block;
+}
